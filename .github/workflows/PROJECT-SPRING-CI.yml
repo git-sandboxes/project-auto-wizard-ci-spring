@@ -20,7 +20,7 @@ permissions:
 env:
   JAVA_VERSION: "21"
   # Subdirectory of this project in a monorepo ('.' = always verify)
-  PROJECT_PATH: "."
+  PROJECT_PATH: "backend"
 
 jobs:
   # Change detection (decides whether this project's path changed in a monorepo)
